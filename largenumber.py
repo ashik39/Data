@@ -1,6 +1,6 @@
-n1 = float(input())
-n2 = float(input())
-n3 = float(input())
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
  
 if (n1 > n2) and (n1 > n3):
    largest = n1

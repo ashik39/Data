@@ -3,7 +3,7 @@ def main():
 	n=int(input())
 	for i in range(1,n):
 		w=w*i
-	print(w)
+	print(w+1)
 try:
 	main()
 except:

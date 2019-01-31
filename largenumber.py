@@ -1,1 +1,1 @@
-print(max(raw_input().split(" ")))
+print(max(input().split(" ")))

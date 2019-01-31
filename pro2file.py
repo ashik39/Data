@@ -1,3 +1,3 @@
-ip = raw_input().split(" ")
-data =  sorted(list(ip[0][int(ip[1]):]))
+sp = raw_input().split(" ")
+data =  sorted(list(sp[0][int(sp[1]):]))
 print "".join(data)

@@ -1,6 +1,6 @@
-s=input()
+x=input()
 
-if(s % 4 )== 0:
+if(x % 4 )== 0:
 
 	print('yes')
 

@@ -1,4 +1,2 @@
-l="Hello \n"
-x=int(input())
-i=l*x
-print (i)
+for i in range(int(input())):
+    print "Hello"

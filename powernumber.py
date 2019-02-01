@@ -1,2 +1,2 @@
-g,f=map(int,raw_input().split())
-print(g**f)
+arul,mozhi=map(int,raw_input().split())
+print(arul**mozhi)

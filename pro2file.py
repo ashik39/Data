@@ -1,3 +1,6 @@
-sp = raw_input().split(" ")
-data =  sorted(list(sp[0][int(sp[1]):]))
-print "".join(data)
+from itertools import combinations
+a,s=map(int,input().split())
+h=len(str(a))
+l=list(combinations(str(a),h-s))
+l=sorted(l)
+print("".join(l[0]))
